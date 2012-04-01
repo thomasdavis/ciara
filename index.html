@@ -9,35 +9,68 @@
     body, .header, .side, .page {
       margin: 0;
       padding: 0;
+      background: #f0f0f0;
     }
     .header {
       width: 660px;
       float: left;
     }
-    .side {
+    .side {   
       width: 300px;
       float: right;
     } 
     .page {
-      width: 660px;
+      width: 640px;
       float: left;
-    }
-    div {
-      outline: 1px solid #000;
     }
     .container {
       width: 960px;
       margin: auto;
     }
+    .info-box {
+      margin-top: 150px;
+    }
+    .info-box .title {
+      font-weight: bold;
+    }
+    .info-box span {
+      font-size: 12px;
+      font-family: Verdana;
+      display: block;
+      color: #444;
+    }
+    .showcase {
+      margin-top: 50px;
+      outline: 2px dashed #444;
+      height: 400px;
+    }
   </style>
+  
 </head>
 
 <body>
   <div class="container">
-    <div class="header">
-    header</div>
-    <div class="side">Some info goes here</div>
-    <div class="page">ooo page</div>
+    <div class="side">
+    
+    <div class="info-box">
+    <span class="title">Ciara Denham</span>
+    <span>Graphic Designer</span>
+    <br />
+    <span>25 Drury st, West End</span>
+    <span>QLD 4101, Australia</span>
+    <br />
+    <span>0412 328 876</span>
+    <br />
+    <span>me [at] ciaradenham.com</span>
+    </div>
+    
+    </div>
+    <div class="page">
+      <div class="showcase">
+      &nbsp;
+      </div>
+    
+    </div>
   </div>
 </body>
 </html>
